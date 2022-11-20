@@ -1,0 +1,65 @@
+@media (min-width: 768px) {
+    .skillset span{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 10px;        
+    }
+    
+    .selectAll{
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 767px){
+    main{
+        width: 90%;
+        margin: 2%;
+    }
+    thead{
+        width: 30%;
+        float: left;
+    }
+        thead td{
+            display: flex;
+            flex-direction: column;
+                    
+        }
+    tbody{
+        width: 65%;
+        float: right;
+        
+    }
+        tbody td{
+            display: flex;
+            flex-direction: column;
+        }  
+        .calSpace{
+            
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+        }
+    .cart{
+        width: 90%;
+        margin: 20px;
+    }
+    .skillset div{
+        width: 100%;
+    }
+    
+    .skillset {
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .skillset label{
+        padding: 10px;
+    }
+    .skillset span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px;
+    }
+}

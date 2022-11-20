@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DOM 練習</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/query.css">
+</head>
+<body>
+  <main>
+    <section class="cart">
+      <h1>購物車</h1>
+      <table>
+        <thead>
+          <tr>
+            <td>品項</td>
+            <td>單價</td>
+            <td>數量</td>
+            <td>小計</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>為你自己學程式設計</td>
+            <td>300</td>
+            <td class="calSpace"><span id="item1Quantity">0</span>
+              <a href="#" class="addProduct" id="addItem">+</a>
+              <a href="#" class="addProduct" id="minusItem">-</a>
+            </td>
+            <td><span id="item1Price">0</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="skillset">
+      <div><h1>想學會的技能</h1></div>
+      <label for="html"><input type="checkbox" class="skill" id="html" value="html">HTML</label>
+      <label for="css"><input type="checkbox" class="skill" id="css" value="css"> CSS</label>
+      <label for="javascript"><input type="checkbox" class="skill" id="javascript" value="javascript">JavaScript</label>
+      <label for="git"><input type="checkbox" class="skill" id="git" value="git">Git</label>
+      <label for="ruby"><input type="checkbox" class="skill" id="ruby" value="ruby">Ruby</label>
+      <label for="ruby-on-rails"><input type="checkbox" class="skill" id="ruby-on-rails" value="ruby-on-rails">Ruby on Rails</label>
+      <span>
+        <a href="#" class="selectAll" id ="wantall">我全都要</a>
+        <a href="#" class="selectAll" id ="clearall">清空重選</a>
+      </span>
+    </section>
+
+  </main>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
